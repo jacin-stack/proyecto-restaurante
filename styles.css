@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.imagenes-superiores {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.logo-barra-navegacion {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 170px;
+}
+
+.imagenes-superiores img {
+    width: 33.33%; 
+    height: auto;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 200px; 
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover {
+    background-color: #ddd; 
+}
+
+.descripcion {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 600px;
+}
+
+.imagenes-centro {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes-centro div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    width: 30%;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.imagenes-centro img {
+    width: 100%; 
+    height: auto; 
+}
+
+.boton {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    background-color: orange;
+}
+
+.boton:hover {
+    background-color: darkorange;
+}
+
